@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hi,%20I'm%20Aditya!%20👋&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Mobile%20&%20Web%20App%20Developer&descAlignY=55&descAlign=50" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hi,%20I'm%20Aditya!%20👋&fontSize=50&animation=fadeIn&fontAlignY=38%20&%20Web%20App%20Developer&descAlignY=55&descAlign=50" alt="Header Banner" />
 </div>
 
 <h3 align="center">Turning Ideas into Real-World Software Solutions 🚀</h3>
