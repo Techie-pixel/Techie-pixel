@@ -1,18 +1,14 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hi,%20I'm%20Aditya!%20👋&fontSize=50&animation=fadeIn&fontAlignY=38%20&%20Web%20App%20Developer&descAlignY=55&descAlign=50" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hi,%20I'm%20Aditya!%20👋&fontSize=50&animation=fadeIn&fontAlignY=38&descAlignY=55&descAlign=50" alt="Header Banner" />
 </div>
-
 <h3 align="center">Turning Ideas into Real-World Software Solutions 🚀</h3>
-
 <div align="center">
   <a href="mailto:bokdeaditya77@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/Techie-pixel"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </div>
-
 <br>
 
 ## 💫 About Me
-
 I am a final-year Polytechnic student with a strong passion for **Android Ecosystems** and **Full-stack Web Development**. I love architecting applications from the ground up, focusing on clean UI/UX, robust database architecture, and native performance. 
 
 - 🎓 Currently completing my final year in Polytechnic.
@@ -48,21 +44,16 @@ I am a final-year Polytechnic student with a strong passion for **Android Ecosys
 ---
 
 ## 📊 GitHub Analytics
-
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Techie-pixel&theme=radical&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Techie-pixel&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" />
 </div>
-
 <br>
-
 <div align="center">
   <img src="https://nirzak-streak-stats.vercel.app/?user=Techie-pixel&theme=radical&hide_border=false" alt="GitHub Streak" />
 </div>
 
 ---
-
-
 
 ### ✍️ Random Dev Quote
 <div align="center">
@@ -70,6 +61,7 @@ I am a final-year Polytechnic student with a strong passion for **Android Ecosys
 </div>
 
 ---
+
 <div align="center">
-  <i>"Code is like humor. When you have to explain it, it’s bad."</i> — Cory House
+  <i>"Code is like humor. When you have to explain it, it's bad."</i> — Cory House
 </div>
