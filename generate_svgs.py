@@ -1,17 +1,16 @@
 import os
 
 base_css = """
-      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap');
       .bg { fill: #0d1117; rx: 12px; stroke: #30363d; stroke-width: 1.5px; }
       .header { fill: #161b22; }
-      .text { font-family: 'Fira Code', monospace; font-size: 15px; fill: #8b949e; }
+      .text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; fill: #8b949e; }
       .glow-green { fill: #39ff14; filter: drop-shadow(0 0 3px rgba(57,255,20,0.8)); font-weight: bold; }
       .glow-blue { fill: #58a6ff; font-weight: bold; }
       .glow-orange { fill: #ffa500; font-weight: bold; filter: drop-shadow(0 0 3px rgba(255,165,0,0.8)); }
       .glow-purple { fill: #d2a8ff; font-weight: bold; }
-      .prompt { fill: #79c0ff; font-weight: bold; }
-      .path { fill: #ff7b72; }
-      .cmd { fill: #d2a8ff; font-weight: bold; }
+      .prompt { fill: #79c0ff; font-weight: bold; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .path { fill: #ff7b72; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .cmd { fill: #d2a8ff; font-weight: bold; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
 """
 
 def save_svg(name, content):
@@ -64,7 +63,7 @@ about_svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 480" wi
   <circle fill="#ff5f56" cx="20" cy="18" r="6" />
   <circle fill="#ffbd2e" cx="40" cy="18" r="6" />
   <circle fill="#27c93f" cx="60" cy="18" r="6" />
-  <text x="360" y="23" font-family="'Fira Code', monospace" fill="#8b949e" font-size="13">java@aditya-engine: ~</text>
+  <text x="360" y="23" font-family="monospace" fill="#8b949e" font-size="13">java@aditya-engine: ~</text>
 
   <g class="text" transform="translate(20, 70)">
     <g class="step1">
@@ -139,7 +138,7 @@ tech_svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" wid
   <circle fill="#ff5f56" cx="20" cy="18" r="6" />
   <circle fill="#ffbd2e" cx="40" cy="18" r="6" />
   <circle fill="#27c93f" cx="60" cy="18" r="6" />
-  <text x="360" y="23" font-family="'Fira Code', monospace" fill="#8b949e" font-size="13">java@aditya-engine: ~</text>
+  <text x="360" y="23" font-family="monospace" fill="#8b949e" font-size="13">java@aditya-engine: ~</text>
 
   <g class="text" transform="translate(20, 70)">
     <g class="t1">
@@ -178,7 +177,7 @@ gitlog_svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 380" w
   <circle fill="#ff5f56" cx="20" cy="18" r="6" />
   <circle fill="#ffbd2e" cx="40" cy="18" r="6" />
   <circle fill="#27c93f" cx="60" cy="18" r="6" />
-  <text x="360" y="23" font-family="'Fira Code', monospace" fill="#8b949e" font-size="13">java@aditya-engine: ~</text>
+  <text x="360" y="23" font-family="monospace" fill="#8b949e" font-size="13">java@aditya-engine: ~</text>
 
   <g class="text" transform="translate(20, 70)" xml:space="preserve">
     <g class="t1">
@@ -227,7 +226,7 @@ music_svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" wi
   <circle fill="#ff5f56" cx="20" cy="18" r="6" />
   <circle fill="#ffbd2e" cx="40" cy="18" r="6" />
   <circle fill="#27c93f" cx="60" cy="18" r="6" />
-  <text x="360" y="23" font-family="'Fira Code', monospace" fill="#8b949e" font-size="13">java@aditya-engine: ~</text>
+  <text x="360" y="23" font-family="monospace" fill="#8b949e" font-size="13">java@aditya-engine: ~</text>
 
   <g class="text" transform="translate(20, 70)" xml:space="preserve">
     <g class="t1">
