@@ -36,38 +36,41 @@
 
 <br>
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> &nbsp; `$ cat /home/aditya/about.txt`
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> &nbsp; `About Me`
 
 <br>
 
-<img align="right" src="https://raw.githubusercontent.com/SubhadeepZiworworksks/SubhadeepZiworworks/main/icons/animation_500_kxa883sd.gif" alt="coding gif" width="320" />
+<div align="center">
 
-```bash
-┌──────────────────────────────────────────────────────┐
-│                                                      │
-│  ╔═══════════════════════════════════════════════╗   │
-│  ║        SYSTEM INFORMATION v2.0                ║   │
-│  ╚═══════════════════════════════════════════════╝   │
-│                                                      │
-│  User      : Aditya Bokde                            │
-│  Role      : Android Developer & Full-Stack Builder  │
-│  Education : Final Year Polytechnic Student          │
-│  Location  : India 🇮🇳                               │
-│  Status    : Open to Collaborate 🤝                  │
-│                                                      │
-│  ┌─ CURRENT FOCUS ──────────────────────────────┐   │
-│  │ █████████████████████░░░░░ 85% Android Dev    │   │
-│  │ ████████████████░░░░░░░░░ 65% Full-Stack      │   │
-│  │ ██████████████░░░░░░░░░░░ 55% Open Source     │   │
-│  └───────────────────────────────────────────────┘   │
-│                                                      │
-│  ⚡ Fun fact: I debug with console.log &             │
-│     System.out.println equally!                      │
-│                                                      │  
-└──────────────────────────────────────────────────────┘
+```text
+╭────────────────────────────────────────────────────────────────────────╮
+│  🔴 🟡 🟢                                            aditya@terminal  │
+╞════════════════════════════════════════════════════════════════════════╡
+│                                                                        │
+│  aditya@terminal:~$ ./get_system_info.sh                               │
+│                                                                        │
+│  USER INFO:                                                            │
+│  --------------------------------------------------                    │
+│  Name      : Aditya Bokde                                              │
+│  Role      : Android Developer & Full-Stack Builder                    │
+│  Education : Final Year Polytechnic Student                            │
+│  Location  : India 🇮🇳                                                 │
+│  Status    : Open to Collaborate 🤝                                    │
+│                                                                        │
+│  CURRENT FOCUS:                                                        │
+│  --------------------------------------------------                    │
+│  [█████████████████████░░░░░] 85% Android Dev                          │
+│  [████████████████░░░░░░░░░] 65% Full-Stack                            │
+│  [██████████████░░░░░░░░░░░] 55% Open Source                           │
+│                                                                        │
+│  > LOG: "I debug with console.log & System.out.println equally!"       │
+│                                                                        │
+│  aditya@terminal:~$ _                                                  │
+│                                                                        │
+╰────────────────────────────────────────────────────────────────────────╯
 ```
 
-<br clear="both">
+</div>
 
 <br>
 
@@ -79,14 +82,18 @@
 
 <br>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> &nbsp; `$ neofetch --tech-stack`
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> &nbsp; `Tech Stack`
 
 <br>
 
 <div align="center">
 
-```
-┌──────────────────────────────────────────────────────────────┐
+```text
+╭──────────────────────────────────────────────────────────────╮
+│  🔴 🟡 🟢                                   aditya@terminal  │
+╞══════════════════════════════════════════════════════════════╡
+│                                                              │
+│  aditya@terminal:~$ neofetch --tech-stack                    │
 │                                                              │
 │    ████████╗███████╗ ██████╗██╗  ██╗    ███████╗████████╗   │
 │    ╚══██╔══╝██╔════╝██╔════╝██║  ██║    ██╔════╝╚══██╔══╝   │
@@ -95,7 +102,9 @@
 │       ██║   ███████╗╚██████╗██║  ██║    ███████║   ██║       │
 │       ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝    ╚══════╝   ╚═╝     │
 │                                                              │
-└──────────────────────────────────────────────────────────────┘
+│  aditya@terminal:~$ loading modules... done.                 │
+│                                                              │
+╰──────────────────────────────────────────────────────────────╯
 ```
 
 </div>
@@ -152,18 +161,6 @@
 <br>
 
 <div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                  📈 PERFORMANCE METRICS                     │
-└─────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
-<br>
-
-<div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Techie-pixel&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&icon_color=06b6d4&title_color=a78bfa&text_color=c9d1d9&bg_color=0d1117&ring_color=06b6d4" />
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Techie-pixel&theme=tokyonight&hide_border=true&layout=compact&title_color=a78bfa&text_color=c9d1d9&bg_color=0d1117&langs_count=8" />
 </div>
@@ -191,18 +188,6 @@
 <br>
 
 ## 📂 `$ ls ~/repos --latest`
-
-<br>
-
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                 📦 PINNED REPOSITORIES                      │
-└─────────────────────────────────────────────────────────────┘
-```
-
-</div>
 
 <br>
 
@@ -263,18 +248,6 @@
 <br>
 
 <div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    🎖️ TROPHY CABINET                        │
-└─────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
-<br>
-
-<div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Techie-pixel&theme=discord&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=4&row=2" />
 </div>
 
@@ -294,24 +267,32 @@
 
 <div align="center">
 
-```bash
-❯ git log --oneline --graph --decorate
-
-* 2026-Present  │ 🔭 Building production-grade Android apps
-*               │ 🌱 Mastering Full-Stack Web Development
-*               │ 👯 Open to collaborate on open-source projects
-*               │ 💬 Ask me about Java, Android, Firebase, UX
-*               │ ⚡ Fun fact: I think debugging is just detective work 🔍
-│
-* 2025         │ 🚀 Launched SmartConnect - School Management App
-*               │ 🔐 Implemented Firebase Security & Auth flows
-*               │ 📱 Built real-time Firebase-synced Android apps
-│
-* 2024         │ 📚 Started learning Android Development
-*               │ 💡 First open-source contribution
-*               │ 🎯 Explored web architectures & frontend design
-│
-* init          │ 🌟 Started the dev journey
+```text
+╭────────────────────────────────────────────────────────────────────────╮
+│  🔴 🟡 🟢                                            aditya@terminal  │
+╞════════════════════════════════════════════════════════════════════════╡
+│                                                                        │
+│  aditya@terminal:~$ git log --oneline --graph --decorate               │
+│                                                                        │
+│  * 2026-Present │ 🔭 Building production-grade Android apps             │
+│  *              │ 🌱 Mastering Full-Stack Web Development               │
+│  *              │ 👯 Open to collaborate on open-source projects         │
+│  *              │ 💬 Ask me about Java, Android, Firebase, UX           │
+│  *              │ ⚡ Fun fact: I think debugging is just detective work 🔍│
+│  │                                                                     │
+│  * 2025         │ 🚀 Launched SmartConnect - School Management App     │
+│  *              │ 🔐 Implemented Firebase Security & Auth flows         │
+│  *              │ 📱 Built real-time Firebase-synced Android apps       │
+│  │                                                                     │
+│  * 2024         │ 📚 Started learning Android Development               │
+│  *              │ 💡 First open-source contribution                     │
+│  *              │ 🎯 Explored web architectures & frontend design       │
+│  │                                                                     │
+│  * init         │ 🌟 Started the dev journey                            │
+│                                                                        │
+│  aditya@terminal:~$ _                                                  │
+│                                                                        │
+╰────────────────────────────────────────────────────────────────────────╯
 ```
 
 </div>
@@ -332,13 +313,18 @@
 
 <div align="center">
 
-```
- ╔══════════════════════════════════════════════════════════════╗
- ║                                                              ║
- ║   "First, solve the problem. Then, write the code."          ║
- ║                                        — John Johnson        ║
- ║                                                              ║
- ╚══════════════════════════════════════════════════════════════╝
+```text
+╭────────────────────────────────────────────────────────────────────────╮
+│  🔴 🟡 🟢                                            aditya@terminal  │
+╞════════════════════════════════════════════════════════════════════════╡
+│                                                                        │
+│  aditya@terminal:~$ get_quote                                          │
+│                                                                        │
+│   "First, solve the problem. Then, write the code."                    │
+│                                          — John Johnson                │
+│                                                                        │
+│  aditya@terminal:~$ _                                                  │
+╰────────────────────────────────────────────────────────────────────────╯
 ```
 
 </div>
@@ -365,17 +351,22 @@
 
 <div align="center">
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                   📊 CODING ACTIVITY                        │
-└─────────────────────────────────────────────────────────────┘
-
-  Android Development  ████████████████████████████░░  93%
-  Firebase / Backend   ██████████████████████░░░░░░░░  72%
-  Frontend (Web)       █████████████████░░░░░░░░░░░░░  55%
-  UI/UX Design         ████████████████░░░░░░░░░░░░░░  50%
-  Open Source          ████████████░░░░░░░░░░░░░░░░░░  40%
-  Learning New Tech    ██████████████████████████████  100% ← always
+```text
+╭────────────────────────────────────────────────────────────────────────╮
+│  🔴 🟡 🟢                                            aditya@terminal  │
+╞════════════════════════════════════════════════════════════════════════╡
+│                                                                        │
+│  aditya@terminal:~$ htop --dev-metrics                                 │
+│                                                                        │
+│    Android Development  [████████████████████████████░░]  93%          │
+│    Firebase / Backend   [██████████████████████░░░░░░░░]  72%          │
+│    Frontend (Web)       [█████████████████░░░░░░░░░░░░░]  55%          │
+│    UI/UX Design         [████████████████░░░░░░░░░░░░░░]  50%          │
+│    Open Source          [████████████░░░░░░░░░░░░░░░░░░]  40%          │
+│    Learning New Tech    [██████████████████████████████] 100% ← always │
+│                                                                        │
+│  aditya@terminal:~$ _                                                  │
+╰────────────────────────────────────────────────────────────────────────╯
 ```
 
 </div>
@@ -396,15 +387,22 @@
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════╗
-║  🎵 Currently Vibing to Code Beats                      ║
-║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━          ║
-║  ▶ Coding Mode: [██████████████████░░] 90%               ║
-║  🎧 Genre: Lo-fi Hip Hop / Electronic                   ║
-║  💻 IDE: Android Studio + VS Code                       ║
-║  ☕ Fuel: Coffee ████████████████ (Infinite)             ║
-╚══════════════════════════════════════════════════════════╝
+```text
+╭────────────────────────────────────────────────────────────────────────╮
+│  🔴 🟡 🟢                                            aditya@terminal  │
+╞════════════════════════════════════════════════════════════════════════╡
+│                                                                        │
+│  aditya@terminal:~$ now-playing --vibe                                 │
+│                                                                        │
+│  🎵 Currently Vibing to Code Beats                                    │
+│  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                          │
+│  ▶ Coding Mode: [██████████████████░░] 90%                             │
+│  🎧 Genre      : Lo-fi Hip Hop / Electronic                            │
+│  💻 IDE        : Android Studio + VS Code                              │
+│  ☕ Fuel       : Coffee ████████████████ (Infinite)                    │
+│                                                                        │
+│  aditya@terminal:~$ _                                                  │
+╰────────────────────────────────────────────────────────────────────────╯
 ```
 
 </div>
@@ -425,23 +423,30 @@
 
 <div align="center">
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   ██████╗ ██████╗ ███╗   ██╗███╗   ██╗███████╗ ██████╗████████╗│
-│  ██╔════╝██╔═══██╗████╗  ██║████╗  ██║██╔════╝██╔════╝╚══██╔══╝│
-│  ██║     ██║   ██║██╔██╗ ██║██╔██╗ ██║█████╗  ██║        ██║   │
-│  ██║     ██║   ██║██║╚██╗██║██║╚██╗██║██╔══╝  ██║        ██║   │
-│  ╚██████╗╚██████╔╝██║ ╚████║██║ ╚████║███████╗╚██████╗   ██║   │
-│   ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═╝   │
-│                                                                 │
-│   📧 Email    → bokdeaditya77@gmail.com                         │
-│   💻 GitHub   → github.com/Techie-pixel                         │
-│   📸 Instagram→ @adi_tya_2486                                   │
-│                                                                 │
-│   💬 "Let's build something awesome together!"                  │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+```text
+╭────────────────────────────────────────────────────────────────────────╮
+│  🔴 🟡 🟢                                            aditya@terminal  │
+╞════════════════════════════════════════════════════════════════════════╡
+│                                                                        │
+│  aditya@terminal:~$ ping aditya --connect                              │
+│                                                                        │
+│   ██████╗ ██████╗ ███╗   ██╗███╗   ██╗███████╗ ██████╗████████╗        │
+│  ██╔════╝██╔═══██╗████╗  ██║████╗  ██║██╔════╝██╔════╝╚══██╔══╝        │
+│  ██║     ██║   ██║██╔██╗ ██║██╔██╗ ██║█████╗  ██║        ██║           │
+│  ██║     ██║   ██║██║╚██╗██║██║╚██╗██║██╔══╝  ██║        ██║           │
+│  ╚██████╗╚██████╔╝██║ ╚████║██║ ╚████║███████╗╚██████╗   ██║           │
+│   ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═╝           │
+│                                                                        │
+│  --------------------------------------------------                    │
+│   📧 Email     → bokdeaditya77@gmail.com                               │
+│   💻 GitHub    → github.com/Techie-pixel                               │
+│   📸 Instagram → @adi_tya_2486                                         │
+│  --------------------------------------------------                    │
+│                                                                        │
+│   💬 "Let's build something awesome together!"                         │
+│                                                                        │
+│  aditya@terminal:~$ _                                                  │
+╰────────────────────────────────────────────────────────────────────────╯
 ```
 
 </div>
@@ -474,15 +479,15 @@
 
 <div align="center">
 
-```
-══════════════════════════════════════════════════════════════
+```bash
+════════════════════════════════════════════════════════════════════════
     Thank you for visiting my profile! Have a great day! 🚀
     
     ⭐ Star my repos if you find them useful!
     🍴 Fork them if you want to contribute!
     
     echo "Happy Coding!" && exit 0
-══════════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════════════════════
 ```
 
 </div>
