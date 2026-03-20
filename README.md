@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=250&section=header&text=Aditya%20Bokde&fontSize=60&fontColor=a78bfa&animation=twinkling&fontAlignY=35&desc=java%20-jar%20Aditya.jar%20--mode%3Dbeast&descSize=18&descAlignY=55&descColor=06b6d4&stroke=06b6d4" />
 
 </div>
-
+<!--shard badge-->
 <!-- Terminal Typing Animation -->
 <div align="center">
 
