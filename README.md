@@ -53,7 +53,7 @@
 <br>
 
 <div align="center">
-  <img alt="Aditya Tech Stack" src="./assets/terminal-tech.svg" width="100%">
+  <img alt="Aditya Tech Stack" src="./assets/terminal-tech-final.svg" width="100%">
 </div>
 
 <br>
