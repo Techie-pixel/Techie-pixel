@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 500" width="850" height="500">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;display=swap');
+      .bg { fill: #0d1117; rx: 12px; stroke: #30363d; stroke-width: 1.5px; }
+      .header { fill: #161b22; }
+      .circle { stroke-width: 0; }
+      .text { font-family: 'Fira Code', monospace; font-size: 15px; fill: #8b949e; }
+      .glow-green { fill: #39ff14; filter: drop-shadow(0 0 3px rgba(57,255,20,0.8)); font-weight: bold; }
+      .glow-blue { fill: #58a6ff; font-weight: bold; }
+      .glow-yellow { fill: #f1e05a; filter: drop-shadow(0 0 3px rgba(241,224,90,0.6)); font-weight: bold; }
+      .glow-red { fill: #ff7b72; font-weight: bold; }
+      .glow-purple { fill: #d2a8ff; font-weight: bold; }
+      .prompt { fill: #79c0ff; font-weight: bold; }
+      .path { fill: #ff7b72; }
+      
+      .blink { animation: blink 1s step-end infinite; }
+      
+      .step1, .step2, .step3, .step4, .step5, .step6, .step7, .step8, .step9, .step10 { opacity: 0; }
+      
+      .step1 { animation: typeLine 0.7s steps(40, end) 0.5s forwards, fadeIn 0.1s 0.5s forwards; white-space: nowrap; overflow: hidden; }
+      .step2 { animation: typeLine 0.3s steps(30, end) 1.5s forwards, fadeIn 0.1s 1.5s forwards; }
+      .step3 { animation: typeLine 0.3s steps(30, end) 2.0s forwards, fadeIn 0.1s 2.0s forwards; }
+      .step4 { animation: typeLine 0.4s steps(40, end) 2.5s forwards, fadeIn 0.1s 2.5s forwards; }
+      .step5 { animation: typeLine 0.2s steps(20, end) 3.1s forwards, fadeIn 0.1s 3.1s forwards; }
+      
+      .step6 { animation: typeLine 0.5s steps(30, end) 4.0s forwards, fadeIn 0.1s 4.0s forwards; }
+      .step7 { animation: fadeIn 0.1s 4.6s forwards; }
+      
+      .step8 { animation: typeLine 0.8s steps(40, end) 6.4s forwards, fadeIn 0.1s 6.4s forwards; }
+      .step9 { animation: fadeIn 0.1s 7.4s forwards; }
+      .step10 { animation: fadeIn 0.1s 7.8s forwards; }
+      
+      .bar-bg { fill: #21262d; }
+      .bar-fg-1 { fill: #3fb950; animation: loadBar1 0.6s ease-out 5.0s forwards; width: 0; filter: drop-shadow(0 0 3px rgba(63,185,80,0.8)); }
+      .bar-fg-2 { fill: #58a6ff; animation: loadBar2 0.8s ease-out 5.3s forwards; width: 0; filter: drop-shadow(0 0 3px rgba(88,166,255,0.8)); }
+      .bar-fg-3 { fill: #d2a8ff; animation: loadBar3 0.7s ease-out 5.6s forwards; width: 0; filter: drop-shadow(0 0 3px rgba(210,168,255,0.8)); }
+      
+      @keyframes fadeIn { to { opacity: 1; } }
+      @keyframes typeLine { 0% { clip-path: inset(0 100% 0 0); } 100% { clip-path: inset(0 0 0 0); } }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes loadBar1 { to { width: 340px; } }
+      @keyframes loadBar2 { to { width: 260px; } }
+      @keyframes loadBar3 { to { width: 220px; } }
+    </style>
+  </defs>
+
+  <rect class="bg" width="850" height="500" />
+  <path class="header" d="M0 12 Q 0 0 12 0 L 838 0 Q 850 0 850 12 L 850 35 L 0 35 Z" />
+  
+  <circle class="circle" fill="#ff5f56" cx="20" cy="18" r="6" />
+  <circle class="circle" fill="#ffbd2e" cx="40" cy="18" r="6" />
+  <circle class="circle" fill="#27c93f" cx="60" cy="18" r="6" />
+  <text x="340" y="23" font-family="'Fira Code', monospace" fill="#8b949e" font-size="13">aditya@terminal-beast: ~</text>
+
+  <g class="text" transform="translate(20, 70)">
+    
+    <g class="step1">
+      <text y="0"><tspan class="prompt">aditya@terminal</tspan>:<tspan class="path">~</tspan>$ ./init_profile.sh --verbose</text>
+    </g>
+
+    <g class="step2">
+      <text y="30">[<tspan class="glow-green">OK</tspan>] Mounting developer mindset... </text>
+      <text y="30" x="400" class="glow-yellow">Success</text>
+    </g>
+
+    <g class="step3">
+      <text y="55">[<tspan class="glow-green">OK</tspan>] Booting core OS: <tspan class="glow-blue">Aditya Bokde (v2026.1)</tspan></text>
+      <text y="55" x="400" class="glow-yellow">Online</text>
+    </g>
+    
+    <g class="step4">
+      <text y="80">[<tspan class="glow-red">WARN</tspan>] Caffeine levels dropping. Compiling anyway...</text>
+    </g>
+
+    <g class="step5">
+      <text y="105">[<tspan class="glow-green">OK</tspan>] Diagnostics Check: <tspan class="glow-green">All systems nominal ✅</tspan></text>
+    </g>
+
+    <g class="step6" transform="translate(0, 50)">
+      <text y="100"><tspan class="prompt">aditya@terminal</tspan>:<tspan class="path">~</tspan>$ load_skills --bars</text>
+    </g>
+
+    <g class="step7" transform="translate(0, 50)">
+      <text y="130" class="glow-green">Android Dev (Java)</text>
+      <rect x="220" y="118" width="400" height="14" class="bar-bg" rx="4" />
+      <rect x="220" y="118" height="14" class="bar-fg-1" rx="4" />
+      <text x="635" y="130" class="glow-green">85%</text>
+
+      <text y="160" class="glow-blue">Full-Stack &amp; Web</text>
+      <rect x="220" y="148" width="400" height="14" class="bar-bg" rx="4" />
+      <rect x="220" y="148" height="14" class="bar-fg-2" rx="4" />
+      <text x="635" y="160" class="glow-blue">65%</text>
+
+      <text y="190" class="glow-purple">Firebase &amp; MySQL</text>
+      <rect x="220" y="178" width="400" height="14" class="bar-bg" rx="4" />
+      <rect x="220" y="178" height="14" class="bar-fg-3" rx="4" />
+      <text x="635" y="190" class="glow-purple">55%</text>
+    </g>
+
+    <g class="step8" transform="translate(0, 110)">
+      <text y="190"><tspan class="prompt">aditya@terminal</tspan>:<tspan class="path">~</tspan>$ cat /etc/quote</text>
+    </g>
+
+    <g class="step9" transform="translate(0, 110)">
+      <text y="225" fill="#8b949e">></text>
+      <text x="20" y="225" fill="#e5c07b" font-style="italic">"First, solve the problem. Then, write the code."</text>
+      <text x="490" y="225" fill="#8b949e">— John Johnson</text>
+    </g>
+
+    <g class="step10" transform="translate(0, 110)">
+      <text y="270"><tspan class="prompt">aditya@terminal</tspan>:<tspan class="path">~</tspan>$ <tspan class="blink glow-green">█</tspan></text>
+    </g>
+
+  </g>
+</svg>

@@ -41,35 +41,11 @@
 <br>
 
 <div align="center">
-
-```text
-╭────────────────────────────────────────────────────────────────────────╮
-│  🔴 🟡 🟢                                            aditya@terminal  │
-╞════════════════════════════════════════════════════════════════════════╡
-│                                                                        │
-│  aditya@terminal:~$ ./get_system_info.sh                               │
-│                                                                        │
-│  USER INFO:                                                            │
-│  --------------------------------------------------                    │
-│  Name      : Aditya Bokde                                              │
-│  Role      : Android Developer & Full-Stack Builder                    │
-│  Education : Final Year Polytechnic Student                            │
-│  Location  : India 🇮🇳                                                 │
-│  Status    : Open to Collaborate 🤝                                    │
-│                                                                        │
-│  CURRENT FOCUS:                                                        │
-│  --------------------------------------------------                    │
-│  [█████████████████████░░░░░] 85% Android Dev                          │
-│  [████████████████░░░░░░░░░] 65% Full-Stack                            │
-│  [██████████████░░░░░░░░░░░] 55% Open Source                           │
-│                                                                        │
-│  > LOG: "I debug with console.log & System.out.println equally!"       │
-│                                                                        │
-│  aditya@terminal:~$ _                                                  │
-│                                                                        │
-╰────────────────────────────────────────────────────────────────────────╯
-```
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-animation.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/terminal-animation.svg">
+    <img alt="Aditya Terminal Animation" src="./assets/terminal-animation.svg" width="100%">
+  </picture>
 </div>
 
 <br>
