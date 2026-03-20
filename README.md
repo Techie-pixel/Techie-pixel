@@ -38,7 +38,7 @@
 <br>
 
 <div align="center">
-  <img alt="Aditya Loading Info" src="https://raw.githubusercontent.com/Techie-pixel/Techie-pixel/main/assets/terminal-about.svg?v=5" width="100%">
+  <img alt="Aditya Loading Info" src="./assets/terminal-about.svg" width="100%">
 </div>
 
 <br>
@@ -53,7 +53,7 @@
 <br>
 
 <div align="center">
-  <img alt="Aditya Tech Stack" src="https://raw.githubusercontent.com/Techie-pixel/Techie-pixel/main/assets/terminal-tech.svg?v=5" width="100%">
+  <img alt="Aditya Tech Stack" src="./assets/terminal-tech.svg" width="100%">
 </div>
 
 <br>
@@ -114,7 +114,7 @@
 <br>
 
 <div align="center">
-  <img alt="Aditya Git Log" src="https://raw.githubusercontent.com/Techie-pixel/Techie-pixel/main/assets/terminal-gitlog.svg?v=5" width="100%">
+  <img alt="Aditya Git Log" src="./assets/terminal-gitlog.svg" width="100%">
 </div>
 
 <br>
@@ -154,7 +154,7 @@
 <br>
 
 <div align="center">
-  <img alt="Aditya Music Vibe" src="https://raw.githubusercontent.com/Techie-pixel/Techie-pixel/main/assets/terminal-music.svg?v=5" width="100%">
+  <img alt="Aditya Music Vibe" src="./assets/terminal-music.svg" width="100%">
 </div>
 
 <br>
