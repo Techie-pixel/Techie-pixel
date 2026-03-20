@@ -59,22 +59,22 @@
     
 
     <g class="row1" transform="translate(0, 230)">
-      <text y="0" font-weight="bold" fill="#e6edf3" font-size="15">> Languages & Core</text>
+      <text y="0" font-weight="bold" fill="#e6edf3" font-size="15">&gt; Languages &amp; Core</text>
       <text y="25" fill="#ffa500" font-weight="bold">[Java]  [C]  [JavaScript]  [HTML5]  [CSS]  [XML]</text>
     </g>
 
     <g class="row2" transform="translate(0, 290)">
-      <text y="0" font-weight="bold" fill="#e6edf3" font-size="15">> Mobile Development</text>
+      <text y="0" font-weight="bold" fill="#e6edf3" font-size="15">&gt; Mobile Development</text>
       <text y="25" fill="#3fb950" font-weight="bold">[Android]  [Android Studio]  [Gradle]</text>
     </g>
 
     <g class="row3" transform="translate(0, 350)">
-      <text y="0" font-weight="bold" fill="#e6edf3" font-size="15">> Backend & Databases</text>
+      <text y="0" font-weight="bold" fill="#e6edf3" font-size="15">&gt; Backend &amp; Databases</text>
       <text y="25" fill="#ff7b72" font-weight="bold">[Firebase]  [Firestore]  [MySQL]  [Apache]</text>
     </g>
 
     <g class="row4" transform="translate(0, 410)">
-      <text y="0" font-weight="bold" fill="#e6edf3" font-size="15">> Tools & Platforms</text>
+      <text y="0" font-weight="bold" fill="#e6edf3" font-size="15">&gt; Tools &amp; Platforms</text>
       <text y="25" fill="#d2a8ff" font-weight="bold">[GitHub]  [Vercel]  [VS Code]  [Figma]</text>
     </g>
     

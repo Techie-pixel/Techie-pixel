@@ -4,7 +4,7 @@ def build_row(title, items, y_offset, anim_class, color):
     # Terminal styled text rows
     row_xml = f"""
     <g class="{anim_class}" transform="translate(0, {y_offset})">
-      <text y="0" font-weight="bold" fill="#e6edf3" font-size="15">> {title}</text>
+      <text y="0" font-weight="bold" fill="#e6edf3" font-size="15">&gt; {title}</text>
       <text y="25" fill="{color}" font-weight="bold">"""
     
     # Format items like: [ Java ]  [ HTML ]  ...
@@ -73,10 +73,10 @@ svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 510" 
       <text y="195">[<tspan class="glow-green">SUCCESS</tspan>] Libraries loaded.</text>
     </g>
     
-{build_row("Languages & Core", ["Java", "C", "JavaScript", "HTML5", "CSS", "XML"], 230, "row1", "#ffa500")}
+{build_row("Languages &amp; Core", ["Java", "C", "JavaScript", "HTML5", "CSS", "XML"], 230, "row1", "#ffa500")}
 {build_row("Mobile Development", ["Android", "Android Studio", "Gradle"], 290, "row2", "#3fb950")}
-{build_row("Backend & Databases", ["Firebase", "Firestore", "MySQL", "Apache"], 350, "row3", "#ff7b72")}
-{build_row("Tools & Platforms", ["GitHub", "Vercel", "VS Code", "Figma"], 410, "row4", "#d2a8ff")}
+{build_row("Backend &amp; Databases", ["Firebase", "Firestore", "MySQL", "Apache"], 350, "row3", "#ff7b72")}
+{build_row("Tools &amp; Platforms", ["GitHub", "Vercel", "VS Code", "Figma"], 410, "row4", "#d2a8ff")}
     
     <g class="cursor">
        <text y="465"><tspan class="prompt">aditya@dev</tspan>:<tspan class="path">~/desktop</tspan>$ <tspan class="glow-green">█</tspan></text>
