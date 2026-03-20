@@ -5,10 +5,18 @@ on:
     - cron: "0 */12 * * *" # Runs every 12 hours
   workflow_dispatch: # Allows manual trigger
 
+# Allow workflow to commit to the repository
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # We need to checkout the repo first
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
       - name: Generate Snake Game
         uses: Platane/snk/svg-only@v3
         with:
