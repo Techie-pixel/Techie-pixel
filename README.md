@@ -23,6 +23,8 @@
 <a href="https://github.com/Techie-pixel"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 &nbsp;
 <a href="https://www.instagram.com/adi_tya_2486"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/aditya-bokde-b87a703b8"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 </div>
 
@@ -148,6 +150,10 @@
   &nbsp;
   <a href="https://www.instagram.com/adi_tya_2486">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/aditya-bokde-b87a703b8">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </div>
 
