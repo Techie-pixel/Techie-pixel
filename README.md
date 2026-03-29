@@ -3,7 +3,6 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=250&section=header&text=Aditya%20Bokde&fontSize=60&fontColor=a78bfa&animation=twinkling&fontAlignY=35&desc=java%20-jar%20Aditya.jar%20--mode%3Dbeast&descSize=18&descAlignY=55&descColor=06b6d4&stroke=06b6d4" />
 
 </div>
-
 <!-- Terminal Typing Animation -->
 <div align="center">
 
@@ -15,7 +14,7 @@
 
 <br>
 
-<!-- Social Badges -->
+<!-- Social Badges - Icon Only -->
 <div align="center">
 
 <a href="mailto:bokdeaditya77@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
@@ -32,71 +31,6 @@
 
 ---
 
-<br>
-
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> &nbsp; `java Aditya.class --about`
-
-<br>
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║          java@aditya-engine: ~                               ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║  aditya@dev:~$ java Aditya.class --about                     ║
-║                                                              ║
-║  > Name     : Aditya Bokde                                   ║
-║  > Role     : Android Developer | Full-Stack | Firebase      ║
-║  > Focus    : Building production-grade Android apps 🚀      ║
-║  > Learning : Full-Stack & Data Science                      ║
-║  > Loves    : Open Source Collaboration 🤝                   ║
-║  > Debug    : "It's just detective work" 🔍                  ║
-║                                                              ║
-║  aditya@dev:~$ █                                             ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-<br>
-
----
-
-<br>
-
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> &nbsp; `java TechStack.class --display`
-
-<br>
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║          java@aditya-engine: ~                               ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║  aditya@dev:~$ java TechStack.class --display                ║
-║                                                              ║
-║  > Languages  : Java · Kotlin · Python · JavaScript         ║
-║  > Mobile     : Android SDK · Jetpack Compose · XML         ║
-║  > Backend    : Firebase · Node.js · REST APIs              ║
-║  > Frontend   : HTML · CSS · React (learning)               ║
-║  > Database   : Firestore · Room · SQLite                   ║
-║  > Tools      : Git · IntelliJ · Android Studio · VS Code  ║
-║  > Currently  : Mastering Full-Stack + Data Science 📊      ║
-║                                                              ║
-║  aditya@dev:~$ █                                             ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-<br>
-
----
-
 <!-- SNAKE ANIMATION -->
 <br>
 
@@ -106,71 +40,6 @@
 
 <div align="center">
   <img alt="github-snake" src="https://raw.githubusercontent.com/Techie-pixel/Techie-pixel/output/github-snake-dark.svg" width="100%" />
-</div>
-
-<br>
-
----
-
-<br>
-
-## 📝 `java GitLog.class --display`
-
-<br>
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║          java@aditya-engine: ~                               ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║  aditya@dev:~/desktop/repos$ java GitLog.class               ║
-║                                                              ║
-║  * 2026-Present │ 🛠  Building production-grade Android apps  ║
-║  * |  🌱 Mastering Full-Stack & Data Science                 ║
-║  * |  🤝 Open to collaborate on open-source projects         ║
-║  * |  ⚡ Debugging is just detective work 🔍                  ║
-║  |                                                           ║
-║  * 2025 │ 🚀 Launched SmartConnect School Management App     ║
-║  * |  🔐 Implemented Firebase Auth & Real-time Sync          ║
-║  |                                                           ║
-║  * 2024 │ 🖥  Started Android Dev & Web UI designs           ║
-║  * init │ 🌟 Dev journey started.                            ║
-║                                                              ║
-║  aditya@dev:~/desktop/repos$ █                               ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-<br>
-
----
-
-<br>
-
-## 🎧 `java Spotify.class --vibe`
-
-<br>
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║          java@aditya-engine: ~                               ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║  aditya@dev:~/spotify$ java Spotify --vibe                   ║
-║                                                              ║
-║  🎵 Currently vibing to: Lo-Fi Beats (Coding Focus)          ║
-║                                                              ║
-║  ████ ☕ Fuel: Coffee  💻 IDE: IntelliJ & Android Studio     ║
-║                                                              ║
-║  aditya@dev:~/spotify$ █                                     ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
 </div>
 
 <br>
@@ -203,41 +72,32 @@
 ---
 
 <!-- FOOTER -->
-<br>
-
 <div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=Techie-pixel&color=7c3aed&style=for-the-badge&label=TERMINAL+SESSIONS" />
 
-</div>
+<br><br>
 
-<br>
-
-<div align="center">
-
-```java
-/*
- * ═══════════════════════════════════════════════════════════
- *   java@aditya-engine: ~
- * ═══════════════════════════════════════════════════════════
- *
- *   aditya@dev:~$ java Goodbye.class
- *
- *   > Compiling gratitude...          ✓
- *   > Linking appreciation...         ✓
- *   > Deploying thanks...             ✓
- *
- *   BUILD SUCCESSFUL ✅
- *
- *   Thank you for visiting! 🚀
- *   Your time here means a lot. 🙏
- *   May your code compile on the first try. ❤️
- *   Happy Coding! Keep building. Keep shipping.
- *
- *   aditya@dev:~$ █
- *
- * ═══════════════════════════════════════════════════════════
- */
+```
+╔══════════════════════════════════════════════════════════╗
+║        java@aditya-engine: ~                            ║
+╠══════════════════════════════════════════════════════════╣
+║                                                          ║
+║  aditya@dev:~$ java Goodbye.class                        ║
+║                                                          ║
+║  > Compiling gratitude...              [SUCCESS] ✓       ║
+║  > Linking appreciation...             [SUCCESS] ✓       ║
+║  > Deploying thanks...                 [SUCCESS] ✓       ║
+║                                                          ║
+║  BUILD SUCCESSFUL ✅                                     ║
+║                                                          ║
+║  >> Thank you for visiting my profile! 🚀                ║
+║  >> Your time here means a lot 🙏                        ║
+║  >> May your code compile first try ❤️                   ║
+║  >> Happy Coding & Keep Shipping! 💻                     ║
+║                                                          ║
+║  aditya@dev:~$ █                                         ║
+╚══════════════════════════════════════════════════════════╝
 ```
 
 </div>
