@@ -79,13 +79,6 @@
 <br>
 
 <div align="center">
-	<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Techie-pixel&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&icon_color=06b6d4&title_color=a78bfa&text_color=c9d1d9&bg_color=0d1117&ring_color=06b6d4&cache_seconds=1800" />
-	<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Techie-pixel&theme=tokyonight&hide_border=true&layout=compact&title_color=a78bfa&text_color=c9d1d9&bg_color=0d1117&langs_count=6&cache_seconds=1800" />
-</div>
-
-<br>
-
-<div align="center">
 	<img width="70%" src="https://streak-stats.demolab.com?user=Techie-pixel&theme=tokyonight&hide_border=true&stroke=a78bfa&ring=06b6d4&fire=f59e0b&currStreakLabel=06b6d4&background=0d1117&sideLabels=a78bfa&dates=8b949e" />
 </div>
 
@@ -108,7 +101,7 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-	<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=1700&pause=350&color=C9D1D9&center=true&vCenter=true&repeat=true&width=980&height=170&lines=aditya%40dev%3A~%24+java+Goodbye.class;Compiling+gratitude...++%5BSUCCESS%5D+%E2%9C%93;Linking+appreciation...+%5BSUCCESS%5D+%E2%9C%93;Deploying+thanks...++++%5BSUCCESS%5D+%E2%9C%93;BUILD+SUCCESSFUL+%E2%9C%85;Thank+you+for+visiting+my+profile!+%F0%9F%9A%80;Your+time+here+means+a+lot+%F0%9F%99%8F;May+your+code+compile+first+try+%E2%9D%A4%EF%B8%8F;Happy+Coding+%26+Keep+Shipping!+%F0%9F%92%BB;aditya%40dev%3A~%24+_" alt="Terminal Session Simulation" />
+	<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=1200&pause=250&color=C9D1D9&center=true&vCenter=true&repeat=true&width=980&height=210&lines=aditya%40dev%3A~%24+java+Goodbye.class+--run;task+1%2F5+%3E+Compiling+gratitude...++++++%5BSUCCESS%5D+%E2%9C%93;task+2%2F5+%3E+Linking+appreciation...+++%5BSUCCESS%5D+%E2%9C%93;task+3%2F5+%3E+Deploying+thanks...+++++++%5BSUCCESS%5D+%E2%9C%93;task+4%2F5+%3E+Running+kindness+checks...+%5BPASS%5D+%E2%9C%93;task+5%2F5+%3E+Finalizing+goodbye+pipeline+%5BDONE%5D+%E2%9C%93;BUILD+SUCCESSFUL+%E2%9C%85;%3E%3E+Thank+you+for+visiting+my+profile!+%F0%9F%9A%80;%3E%3E+Happy+Coding+%26+Keep+Shipping!+%F0%9F%92%BB;aditya%40dev%3A~%24+_" alt="Terminal Session Simulation" />
 </a>
 
 </div>
