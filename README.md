@@ -3,6 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=250&section=header&text=Aditya%20Bokde&fontSize=60&fontColor=a78bfa&animation=twinkling&fontAlignY=35&desc=java%20-jar%20Aditya.jar%20--mode%3Dbeast&descSize=18&descAlignY=55&descColor=06b6d4&stroke=06b6d4" />
 
 </div>
+<!--shard badge-->
 <!-- Terminal Typing Animation -->
 <div align="center">
 
@@ -31,6 +32,36 @@
 
 ---
 
+<!-- ABOUT ME - ANIMATED TERMINAL SVG -->
+<br>
+
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> &nbsp; `java Aditya.class --about`
+
+<br>
+
+<div align="center">
+  <img alt="Aditya Loading Info" src="./assets/terminal-about.svg" width="100%">
+</div>
+
+<br>
+
+---
+
+<!-- TECH STACK - ANIMATED SVG -->
+<br>
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> &nbsp; `java TechStack.class --display`
+
+<br>
+
+<div align="center">
+  <img alt="Aditya Tech Stack" src="./assets/terminal-tech-final.svg" width="100%">
+</div>
+
+<br>
+
+---
+
 <!-- SNAKE ANIMATION -->
 <br>
 
@@ -40,6 +71,21 @@
 
 <div align="center">
   <img alt="github-snake" src="https://raw.githubusercontent.com/Techie-pixel/Techie-pixel/output/github-snake-dark.svg" width="100%" />
+</div>
+
+<br>
+
+---
+
+<!-- GIT LOG - ANIMATED SVG -->
+<br>
+
+## 📝 `java GitLog.class --display`
+
+<br>
+
+<div align="center">
+  <img alt="Aditya Git Log" src="./assets/terminal-gitlog.svg" width="100%">
 </div>
 
 <br>
@@ -65,6 +111,21 @@
 <br>
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Techie-pixel&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=a78bfa&line=06b6d4&point=f59e0b&area=true&area_color=302b63" width="95%" />
+</div>
+
+<br>
+
+---
+
+<!-- NOW PLAYING - ANIMATED SVG -->
+<br>
+
+## 🎧 `java Spotify.class --vibe`
+
+<br>
+
+<div align="center">
+  <img alt="Aditya Music Vibe" src="./assets/terminal-music.svg" width="100%">
 </div>
 
 <br>
