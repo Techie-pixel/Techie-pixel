@@ -94,16 +94,13 @@
 
 <br>
 
+
 ## 💻 `java Goodbye.class --run`
 
 <br>
 
 <div align="center">
-
-<a href="https://git.io/typing-svg">
-	<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=1000&pause=300&color=06B6D4&center=false&vCenter=false&multiline=true&repeat=true&width=650&height=320&lines=aditya%40dev%3A~%24+java+Goodbye.class+--run;task+1%2F5+%3E+Compiling+gratitude........+%5BSUCCESS%5D+%E2%9C%93;task+2%2F5+%3E+Linking+appreciation.......+%5BSUCCESS%5D+%E2%9C%93;task+3%2F5+%3E+Deploying+thanks...........+%5BSUCCESS%5D+%E2%9C%93;task+4%2F5+%3E+Running+kindness+checks....+%5BPASS%5D+%E2%9C%93;task+5%2F5+%3E+Finalizing+goodbye+pipeline+%5BDONE%5D+%E2%9C%93;BUILD+SUCCESSFUL+%E2%9C%85;%3E%3E+Thank+you+for+visiting+my+profile!+%F0%9F%9A%80;%3E%3E+Happy+Coding+%26+Keep+Shipping!+%F0%9F%92%BB;aditya%40dev%3A~%24+_" alt="Terminal Session Simulation" />
-</a>
-
+	<img alt="Aditya Goodbye Sequence" src="./assets/terminal-goodbye.svg" width="100%">
 </div>
 
 <br>
