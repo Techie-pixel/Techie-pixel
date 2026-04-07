@@ -8,7 +8,7 @@
 </div>
 <br>
 <div align="center">
-<a href="mailto:bokdeaditya77@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=bokdeaditya77@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 &nbsp;
 <a href="https://github.com/Techie-pixel"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 &nbsp;
@@ -22,11 +22,11 @@
 
 <br>
 
-## 🚀 `python projects.py --showcase`
+## `python projects.py --showcase`
 
 <br>
 <div align="center">
-<a href="https://github.com/Techie-pixel/SmartConnect"><img src="https://img.shields.io/badge/SMARTCONNECT-a78bfa?style=for-the-badge&logo=android&logoColor=white" /></a>
+<a href="https://github.com/Techie-pixel/SmartConnect/releases/tag/v1.0"><img src="https://img.shields.io/badge/SMARTCONNECT-a78bfa?style=for-the-badge&logo=android&logoColor=white" /></a>
 &nbsp;&nbsp;
 <a href="https://skill-gap-analyzer-cyan.vercel.app"><img src="https://img.shields.io/badge/SKILL_GAP_ANALYZER-06b6d4?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 &nbsp;&nbsp;
@@ -42,7 +42,7 @@
 
 <br>
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> &nbsp; `python aditya.py --about`
+## `python aditya.py --about`
 <br>
 <div align="center">
 	<img alt="Aditya Loading Info" src="./assets/terminal-about.svg" width="100%">
@@ -64,7 +64,7 @@
 
 <br>
 
-## 🐍 `python -m aditya.games.snake`
+## `python -m aditya.games.snake`
 <br>
 <div align="center">
 	<img alt="github-snake" src="https://raw.githubusercontent.com/Techie-pixel/Techie-pixel/output/github-snake-dark.svg" width="100%" />
@@ -75,7 +75,7 @@
 
 <br>
 
-## 📊 `print(aditya.get_stats())`
+## `print(aditya.get_stats())`
 <br>
 <div align="center">
 	<img width="70%" src="https://streak-stats.demolab.com?user=Techie-pixel&theme=tokyonight&hide_border=true&stroke=a78bfa&ring=06b6d4&fire=f59e0b&currStreakLabel=06b6d4&background=0d1117&sideLabels=a78bfa&dates=8b949e" />
@@ -90,7 +90,7 @@
 
 <br>
 
-## 💻 `python goodbye.py --run`
+## `python goodbye.py --run`
 <br>
 <div align="center">
 	<img alt="Aditya Goodbye Sequence" src="./assets/terminal-goodbye.svg" width="100%">
