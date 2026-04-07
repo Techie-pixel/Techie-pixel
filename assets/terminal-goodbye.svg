@@ -20,52 +20,52 @@
   <circle cx="60" cy="18" r="6" fill="#28c840"/>
   <text x="400" y="23" text-anchor="middle" class="in" font-size="12">aditya@dev — python goodbye.py --run</text>
 
-  <g>
+  <g transform="translate(0, 0)">
     <!-- Command line -->
     <g>
       <text x="20" y="68"><tspan class="pr">aditya@dev</tspan><tspan class="in">:~/desktop$ </tspan><tspan class="cm">python goodbye.py --run</tspan></text>
       <!-- Typewriter cover for cmd -->
-      <rect x="180" y="54" width="400" height="18" fill="#0d1117">
-        <animate attributeName="x" values="180; 180; 400; 400; 180" keyTimes="0; 0.02; 0.10; 0.95; 0.96" dur="10s" repeatCount="indefinite"/>
+      <rect x="180" y="54" width="600" height="18" fill="#0d1117">
+        <animate attributeName="x" values="180; 180; 800; 800; 180" keyTimes="0; 0.02; 0.10; 0.95; 1" dur="10s" repeatCount="indefinite"/>
       </rect>
       <!-- Opacity to reset -->
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.01;0.95;0.96" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.95;0.96;0.99;1" dur="10s" repeatCount="indefinite"/>
     </g>
 
     <!-- Shutting down -->
     <g>
       <text x="20" y="92"><tspan class="in">[INFO] </tspan><tspan class="cm">Shutting down gracefully...</tspan></text>
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.15;0.18;0.95;0.96" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.15;0.16;0.95;0.96;1" dur="10s" repeatCount="indefinite"/>
     </g>
 
     <!-- Save progress -->
     <g>
       <text x="20" y="116"><tspan class="in">[INFO] </tspan><tspan class="cy">session.save_progress()</tspan><tspan class="cm">  → </tspan><tspan class="gn">Saved ✓</tspan></text>
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.25;0.28;0.95;0.96" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.26;0.95;0.96;1" dur="10s" repeatCount="indefinite"/>
     </g>
 
     <!-- Git push -->
     <g>
       <text x="20" y="140"><tspan class="in">[INFO] </tspan><tspan class="cy">git.push(</tspan><tspan class="yw">"Shipped another project 🚀"</tspan><tspan class="cy">)</tspan><tspan class="cm"> → </tspan><tspan class="gn">Pushed ✓</tspan></text>
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.35;0.38;0.95;0.96" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.35;0.36;0.95;0.96;1" dur="10s" repeatCount="indefinite"/>
     </g>
 
     <!-- Print goodbye -->
     <g>
       <text x="20" y="164"><tspan class="in">[INFO] </tspan><tspan class="pr">print(</tspan><tspan class="yw">"Thanks for visiting! — Aditya 👋"</tspan><tspan class="pr">)</tspan></text>
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.48;0.95;0.96" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.45;0.46;0.95;0.96;1" dur="10s" repeatCount="indefinite"/>
     </g>
 
     <!-- Output text -->
     <g>
       <text x="20" y="188" class="cm">Thanks for visiting! — Aditya 👋</text>
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.52;0.56;0.95;0.96" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.52;0.53;0.95;0.96;1" dur="10s" repeatCount="indefinite"/>
     </g>
 
     <!-- Blinking cursor -->
     <g>
       <text x="20" y="210"><tspan class="pr">aditya@dev</tspan><tspan class="in">:~/desktop$ </tspan><tspan class="cursor">█</tspan>
-        <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0;0.58;0.59;0.65;0.66;0.72;0.73;0.79;0.80;0.86;0.87;0.93;0.94;0.95;0.96" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0;0.58;0.59;0.65;0.66;0.72;0.73;0.79;0.80;0.86;0.87;0.93;0.94;0.95;0.96;1" dur="10s" repeatCount="indefinite"/>
       </text>
     </g>
   </g>
