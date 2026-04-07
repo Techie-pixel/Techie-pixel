@@ -1,0 +1,248 @@
+import os
+
+base_css = """
+      .bg { fill: #0d1117; rx: 12px; stroke: #30363d; stroke-width: 1.5px; }
+      .header { fill: #161b22; }
+      .text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; fill: #8b949e; }
+      .glow-green { fill: #39ff14; filter: drop-shadow(0 0 3px rgba(57,255,20,0.8)); font-weight: bold; }
+      .glow-blue { fill: #58a6ff; font-weight: bold; }
+      .glow-orange { fill: #ffa500; font-weight: bold; filter: drop-shadow(0 0 3px rgba(255,165,0,0.8)); }
+      .glow-purple { fill: #d2a8ff; font-weight: bold; }
+      .prompt { fill: #79c0ff; font-weight: bold; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .path { fill: #ff7b72; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .cmd { fill: #d2a8ff; font-weight: bold; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+"""
+
+def save_svg(name, content):
+    with open(f"assets/{name}.svg", "w", encoding="utf-8") as f:
+        f.write(content)
+
+about_svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 480" width="100%" height="480">
+  <defs>
+    <style>
+{base_css}
+      /* 15 sec loop */
+      .step1 {{ animation: type1 15s infinite; clip-path: inset(0 100% 0 0); white-space:nowrap; overflow:hidden; }}
+      .step2 {{ animation: pop2 15s infinite; opacity: 0; }}
+      .step3 {{ animation: pop3 15s infinite; opacity: 0; }}
+      .step4 {{ animation: pop4 15s infinite; opacity: 0; }}
+      .step5 {{ animation: type5 15s infinite; clip-path: inset(0 100% 0 0); white-space:nowrap; overflow:hidden; }}
+      .step6 {{ animation: pop6 15s infinite; opacity: 0; }}
+      .step7 {{ animation: type7 15s infinite; clip-path: inset(0 100% 0 0); white-space:nowrap; overflow:hidden; }}
+      .step8 {{ animation: pop8 15s infinite; opacity: 0; }}
+      
+      .bar1 {{ animation: bar1 15s infinite; width: 0; fill: #3fb950; }}
+      .bar2 {{ animation: bar2 15s infinite; width: 0; fill: #58a6ff; }}
+      .bar3 {{ animation: bar3 15s infinite; width: 0; fill: #d2a8ff; }}
+      .bar4 {{ animation: bar4 15s infinite; width: 0; fill: #ffa500; }}
+      
+      .cursor {{ animation: blink 1s step-end infinite, cursorWait 15s infinite; opacity: 0; }}
+
+      @keyframes type1 {{ 0%,2% {{ clip-path: inset(0 100% 0 0); }} 8%,95% {{ clip-path: inset(0 0 0 0); }} 100% {{ clip-path: inset(0 100% 0 0); }} }}
+      @keyframes pop2  {{ 0%,12% {{ opacity: 0; }} 13%,95% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      @keyframes pop3  {{ 0%,15% {{ opacity: 0; }} 16%,95% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      @keyframes pop4  {{ 0%,18% {{ opacity: 0; }} 19%,95% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      @keyframes type5 {{ 0%,25% {{ clip-path: inset(0 100% 0 0); }} 30%,95% {{ clip-path: inset(0 0 0 0); }} 100% {{ clip-path: inset(0 100% 0 0); }} }}
+      @keyframes pop6  {{ 0%,35% {{ opacity: 0; }} 36%,95% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      
+      @keyframes bar1 {{ 0%,37% {{ width: 0; }} 42%,95% {{ width: 340px; }} 100% {{ width:0; }} }}
+      @keyframes bar2 {{ 0%,39% {{ width: 0; }} 44%,95% {{ width: 260px; }} 100% {{ width:0; }} }}
+      @keyframes bar3 {{ 0%,41% {{ width: 0; }} 46%,95% {{ width: 220px; }} 100% {{ width:0; }} }}
+      @keyframes bar4 {{ 0%,43% {{ width: 0; }} 48%,95% {{ width: 120px; }} 100% {{ width:0; }} }} 
+
+      @keyframes type7 {{ 0%,55% {{ clip-path: inset(0 100% 0 0); }} 60%,95% {{ clip-path: inset(0 0 0 0); }} 100% {{ clip-path: inset(0 100% 0 0); }} }}
+      @keyframes pop8  {{ 0%,65% {{ opacity: 0; }} 66%,95% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      @keyframes cursorWait {{ 0%, 65% {{ opacity: 0; }} 66%,95% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      
+      @keyframes blink {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0; }} }}
+    </style>
+  </defs>
+
+  <rect class="bg" width="850" height="480" />
+  <path class="header" d="M0 12 Q 0 0 12 0 L 838 0 Q 850 0 850 12 L 850 35 L 0 35 Z" />
+  <circle fill="#ff5f56" cx="20" cy="18" r="6" />
+  <circle fill="#ffbd2e" cx="40" cy="18" r="6" />
+  <circle fill="#27c93f" cx="60" cy="18" r="6" />
+  <text x="360" y="23" font-family="monospace" fill="#8b949e" font-size="13">python@aditya-engine: ~</text>
+
+  <g class="text" transform="translate(20, 70)">
+    <g class="step1">
+      <text y="0"><tspan class="prompt">aditya@dev</tspan>:<tspan class="path">~/desktop</tspan>$ <tspan class="cmd">python aditya.py --whoami</tspan></text>
+    </g>
+    <g class="step2">
+      <text y="30">[<tspan class="glow-green">INFO</tspan>] Importing developer mindset... <tspan class="glow-yellow">Success</tspan></text>
+    </g>
+    <g class="step3">
+      <text y="55">[<tspan class="glow-green">INFO</tspan>] Runtime Loaded: <tspan class="glow-blue">Aditya Bokde (Final Year)</tspan></text>
+    </g>
+    <g class="step4">
+      <text y="80">[<tspan class="glow-green">INFO</tspan>] Running pytest... <tspan class="glow-green">All tests passed ✅</tspan></text>
+    </g>
+
+    <g class="step5" transform="translate(0, 40)">
+      <text y="75"><tspan class="prompt">aditya@dev</tspan>:<tspan class="path">~/desktop</tspan>$ <tspan class="cmd">aditya.load_skills()</tspan></text>
+    </g>
+
+    <g class="step6" transform="translate(0, 40)">
+      <text y="105" class="glow-green">Android Dev (Java)</text>
+      <rect x="220" y="93" width="400" height="14" fill="#21262d" rx="4" />
+      <rect x="220" y="93" height="14" class="bar1" rx="4" />
+      <text x="635" y="105" class="glow-green">85%</text>
+
+      <text y="135" class="glow-blue">Full-Stack &amp; Web</text>
+      <rect x="220" y="123" width="400" height="14" fill="#21262d" rx="4" />
+      <rect x="220" y="123" height="14" class="bar2" rx="4" />
+      <text x="635" y="135" class="glow-blue">65%</text>
+
+      <text y="165" class="glow-purple">Firebase &amp; MySQL</text>
+      <rect x="220" y="153" width="400" height="14" fill="#21262d" rx="4" />
+      <rect x="220" y="153" height="14" class="bar3" rx="4" />
+      <text x="635" y="165" class="glow-purple">55%</text>
+      
+      <!-- Added Data Science -->
+      <text y="195" class="glow-orange">Data Science (Learning)</text>
+      <rect x="220" y="183" width="400" height="14" fill="#21262d" rx="4" />
+      <rect x="220" y="183" height="14" class="bar4" rx="4" />
+      <text x="635" y="195" class="glow-orange">30%</text>
+    </g>
+
+    <g class="step7" transform="translate(0, 160)">
+      <text y="100"><tspan class="prompt">aditya@dev</tspan>:<tspan class="path">~/desktop</tspan>$ <tspan class="cmd">print(aditya.get_quote())</tspan></text>
+    </g>
+
+    <g class="step8" transform="translate(0, 160)">
+      <text y="130" fill="#e5c07b" font-style="italic">"First, solve the problem. Then, write the code."</text>
+      <text y="155"><tspan class="prompt">aditya@dev</tspan>:<tspan class="path">~/desktop</tspan>$ <tspan class="cursor glow-green">█</tspan></text>
+    </g>
+  </g>
+</svg>"""
+save_svg("terminal-about", about_svg)
+
+
+tech_svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="100%" height="300">
+  <defs>
+    <style>
+{base_css}
+      .t1 {{ animation: type 8s infinite; clip-path: inset(0 100% 0 0); white-space:nowrap; overflow:hidden; }}
+      .p1 {{ animation: pop 8s infinite; opacity: 0; }}
+      .cursor {{ animation: blink 1s step-end infinite, cursorShow 8s infinite; opacity: 0; }}
+      @keyframes type {{ 0%,5% {{ clip-path: inset(0 100% 0 0); }} 15%,95% {{ clip-path: inset(0 0 0 0); }} 100% {{ clip-path: inset(0 100% 0 0); }} }}
+      @keyframes pop {{ 0%,20% {{ opacity: 0; }} 21%,95% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      @keyframes cursorShow {{ 0%,20% {{ opacity: 0; }} 21%,95% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      @keyframes blink {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0; }} }}
+    </style>
+  </defs>
+
+  <rect class="bg" width="850" height="300" />
+  <path class="header" d="M0 12 Q 0 0 12 0 L 838 0 Q 850 0 850 12 L 850 35 L 0 35 Z" />
+  <circle fill="#ff5f56" cx="20" cy="18" r="6" />
+  <circle fill="#ffbd2e" cx="40" cy="18" r="6" />
+  <circle fill="#27c93f" cx="60" cy="18" r="6" />
+  <text x="360" y="23" font-family="monospace" fill="#8b949e" font-size="13">python@aditya-engine: ~</text>
+
+  <g class="text" transform="translate(20, 70)">
+    <g class="t1">
+      <text y="0"><tspan class="prompt">aditya@dev</tspan>:<tspan class="path">~/desktop</tspan>$ <tspan class="cmd">python tech_stack.py --display</tspan></text>
+    </g>
+    <g class="p1">
+      <text y="35" class="glow-blue" font-weight="bold" xml:space="preserve">    ████████╗███████╗ ██████╗██╗  ██╗    ███████╗████████╗</text>
+      <text y="60" class="glow-blue" font-weight="bold" xml:space="preserve">    ╚══██╔══╝██╔════╝██╔════╝██║  ██║    ██╔════╝╚══██╔══╝</text>
+      <text y="85" class="glow-blue" font-weight="bold" xml:space="preserve">       ██║   █████╗  ██║     ███████║    ███████╗   ██║   </text>
+      <text y="110" class="glow-blue" font-weight="bold" xml:space="preserve">       ██║   ██╔══╝  ██║     ██╔══██║    ╚════██║   ██║   </text>
+      <text y="135" class="glow-blue" font-weight="bold" xml:space="preserve">       ██║   ███████╗╚██████╗██║  ██║    ███████║   ██║   </text>
+      <text y="160" class="glow-blue" font-weight="bold" xml:space="preserve">       ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝    ╚══════╝   ╚═╝   </text>
+      <text y="195">[<tspan class="glow-green">SUCCESS</tspan>] Stack mapping generated.</text>
+      <text y="220"><tspan class="prompt">aditya@dev</tspan>:<tspan class="path">~/desktop</tspan>$ <tspan class="cursor glow-green">█</tspan></text>
+    </g>
+  </g>
+</svg>"""
+save_svg("terminal-tech", tech_svg)
+
+gitlog_svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 380" width="100%" height="380">
+  <defs>
+    <style>
+{base_css}
+      .t1 {{ animation: type 10s infinite; clip-path: inset(0 100% 0 0); white-space:nowrap; overflow:hidden; }}
+      .p1 {{ animation: pop 10s infinite; opacity: 0; }}
+      .cursor {{ animation: blink 1s step-end infinite, cursorShow 10s infinite; opacity: 0; }}
+      @keyframes type {{ 0%,5% {{ clip-path: inset(0 100% 0 0); }} 15%,95% {{ clip-path: inset(0 0 0 0); }} 100% {{ clip-path: inset(0 100% 0 0); }} }}
+      @keyframes pop {{ 0%,20% {{ opacity: 0; }} 21%,95% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      @keyframes cursorShow {{ 0%,20% {{ opacity: 0; }} 21%,95% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      @keyframes blink {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0; }} }}
+    </style>
+  </defs>
+
+  <rect class="bg" width="850" height="380" />
+  <path class="header" d="M0 12 Q 0 0 12 0 L 838 0 Q 850 0 850 12 L 850 35 L 0 35 Z" />
+  <circle fill="#ff5f56" cx="20" cy="18" r="6" />
+  <circle fill="#ffbd2e" cx="40" cy="18" r="6" />
+  <circle fill="#27c93f" cx="60" cy="18" r="6" />
+  <text x="360" y="23" font-family="monospace" fill="#8b949e" font-size="13">python@aditya-engine: ~</text>
+
+  <g class="text" transform="translate(20, 70)" xml:space="preserve">
+    <g class="t1">
+      <text y="0"><tspan class="prompt">aditya@dev</tspan>:<tspan class="path">~/desktop/repos</tspan>$ <tspan class="cmd">python git_log.py</tspan></text>
+    </g>
+    <g class="p1">
+      <text y="35" class="glow-orange">* <tspan class="glow-green">2026-Present</tspan> │ 🔭 Building production-grade Android apps</text>
+      <text y="58" class="glow-orange">*              │ 🌱 Mastering Full-Stack &amp; Data Science</text>
+      <text y="81" class="glow-orange">*              │ 👯 Open to collaborate on open-source projects</text>
+      <text y="104" class="glow-orange">*              │ ⚡ Debugging is just detective work 🔍</text>
+      <text y="127" class="glow-blue">│</text>
+      <text y="150" class="glow-blue">* <tspan class="glow-purple">2025        </tspan> │ 🚀 Launched SmartConnect School Management App</text>
+      <text y="173" class="glow-blue">*              │ 🔐 Implemented Firebase Auth &amp; Real-time Sync</text>
+      <text y="196" fill="#8b949e">│</text>
+      <text y="219" fill="#8b949e">* 2024         │ 📚 Started Android Dev &amp; Web UI designs</text>
+      <text y="242" fill="#5c6370">* init         │ 🌟 Dev journey started.</text>
+      <text y="280"><tspan class="prompt">aditya@dev</tspan>:<tspan class="path">~/desktop/repos</tspan>$ <tspan class="cursor glow-green">█</tspan></text>
+    </g>
+  </g>
+</svg>"""
+save_svg("terminal-gitlog", gitlog_svg)
+
+music_svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="100%" height="200">
+  <defs>
+    <style>
+{base_css}
+      .t1 {{ animation: type 10s infinite; clip-path: inset(0 100% 0 0); white-space:nowrap; overflow:hidden; }}
+      .p1 {{ animation: pop 10s infinite; opacity: 0; }}
+      .cursor {{ animation: blink 1s step-end infinite, cursorShow 10s infinite; opacity: 0; }}
+      @keyframes type {{ 0%,5% {{ clip-path: inset(0 100% 0 0); }} 15%,95% {{ clip-path: inset(0 0 0 0); }} 100% {{ clip-path: inset(0 100% 0 0); }} }}
+      @keyframes pop {{ 0%,20% {{ opacity: 0; }} 21%,95% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      @keyframes cursorShow {{ 0%,20% {{ opacity: 0; }} 21%,95% {{ opacity: 1; }} 100% {{ opacity: 0; }} }}
+      @keyframes blink {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0; }} }}
+      
+      .bounce {{ animation: bounce 1s infinite alternate; }}
+      .b1 {{ animation-delay: 0.1s; fill: #1db954; }}
+      .b2 {{ animation-delay: 0.3s; fill: #1db954; }}
+      .b3 {{ animation-delay: 0.5s; fill: #1db954; }}
+      .b4 {{ animation-delay: 0.2s; fill: #1db954; }}
+      @keyframes bounce {{ from {{ height: 5px; y: 110px; }} to {{ height: 25px; y: 90px; }} }}
+    </style>
+  </defs>
+
+  <rect class="bg" width="850" height="200" />
+  <path class="header" d="M0 12 Q 0 0 12 0 L 838 0 Q 850 0 850 12 L 850 35 L 0 35 Z" />
+  <circle fill="#ff5f56" cx="20" cy="18" r="6" />
+  <circle fill="#ffbd2e" cx="40" cy="18" r="6" />
+  <circle fill="#27c93f" cx="60" cy="18" r="6" />
+  <text x="360" y="23" font-family="monospace" fill="#8b949e" font-size="13">python@aditya-engine: ~</text>
+
+  <g class="text" transform="translate(20, 70)" xml:space="preserve">
+    <g class="t1">
+      <text y="0"><tspan class="prompt">aditya@dev</tspan>:<tspan class="path">~/spotify</tspan>$ <tspan class="cmd">python spotify.py --vibe</tspan></text>
+    </g>
+    <g class="p1">
+      <text y="35">🎵 Currently vibing to: <tspan font-style="italic" class="glow-green">Lo-Fi Beats (Coding Focus)</tspan></text>
+      <!-- equalizer -->
+      <rect x="20" width="8" class="bounce b1" rx="2" />
+      <rect x="35" width="8" class="bounce b2" rx="2" />
+      <rect x="50" width="8" class="bounce b3" rx="2" />
+      <rect x="65" width="8" class="bounce b4" rx="2" />
+      
+      <text x="90" y="110">☕ Fuel: Coffee    💻 IDE: VS Code &amp; Android Studio</text>
+      <text y="150"><tspan class="prompt">aditya@dev</tspan>:<tspan class="path">~/spotify</tspan>$ <tspan class="cursor glow-green">█</tspan></text>
+    </g>
+  </g>
+</svg>"""
+save_svg("terminal-music", music_svg)
