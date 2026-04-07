@@ -26,15 +26,15 @@
 
 <br>
 <div align="center">
-<a href="https://github.com/Techie-pixel/SmartConnect"><img src="https://img.shields.io/badge/📱_SmartConnect-View_Project-a78bfa?style=for-the-badge&logo=android&logoColor=white&labelColor=0f0c29" /></a>
+<a href="https://github.com/Techie-pixel/SmartConnect"><img src="https://img.shields.io/badge/SMARTCONNECT-a78bfa?style=for-the-badge&logo=android&logoColor=white" /></a>
 &nbsp;&nbsp;
-<a href="https://skill-gap-analyzer-cyan.vercel.app"><img src="https://img.shields.io/badge/🌐_Skill_Gap_Analyzer-Live_Project-06b6d4?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f0c29" /></a>
+<a href="https://skill-gap-analyzer-cyan.vercel.app"><img src="https://img.shields.io/badge/SKILL_GAP_ANALYZER-06b6d4?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 &nbsp;&nbsp;
-<a href="https://techie-pixel.vercel.app/"><img src="https://img.shields.io/badge/🧑‍💻_Portfolio-Visit_Website-f59e0b?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f0c29" /></a>
+<a href="https://techie-pixel.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-f59e0b?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </div>
 <br>
 <div align="center">
-<a href="https://github.com/Techie-pixel/Techie-pixel/raw/main/assets/Aditya_Bokde_Resume.pdf"><img src="https://img.shields.io/badge/📄_Download_Resume-PDF-39ff14?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=0f0c29" /></a>
+<a href="https://github.com/Techie-pixel/Techie-pixel/raw/main/assets/Aditya_Bokde_Resume.pdf"><img src="https://img.shields.io/badge/DOWNLOAD_RESUME-39ff14?style=for-the-badge&logo=adobeacrobatreader&logoColor=black" /></a>
 </div>
 <br>
 
