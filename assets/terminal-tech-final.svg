@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 510" width="850" height="510">
   <defs>
     <style>
-      text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; fill: #8b949e; }
       .pr { fill: #79c0ff; font-weight: bold; }
       .pt { fill: #ff7b72; }
       .cm { fill: #d2a8ff; font-weight: bold; }
@@ -17,68 +16,76 @@
   <circle cx="20" cy="18" r="6" fill="#ff5f56"/>
   <circle cx="40" cy="18" r="6" fill="#ffbd2e"/>
   <circle cx="60" cy="18" r="6" fill="#27c93f"/>
-  <text x="360" y="23" fill="#8b949e" font-size="13">python@aditya-engine: ~</text>
+  <text x="360" y="23" fill="#8b949e" font-family="ui-monospace, Consolas, monospace" font-size="13">python@aditya-engine: ~</text>
 
-  <g transform="translate(20, 70)">
+  <g transform="translate(20, 70)" font-family="ui-monospace, Consolas, monospace" font-size="15px" fill="#8b949e">
     
     <!-- Command line -->
-    <g>
+    <g opacity="0">
       <text y="0"><tspan class="pr">aditya@dev</tspan>:<tspan class="pt">~/desktop</tspan>$ <tspan class="cm">python tech_stack.py --display</tspan></text>
       <rect x="220" y="-14" width="630" height="18" fill="#0d1117">
-        <animate attributeName="x" values="220; 220; 850; 850; 220" keyTimes="0; 0.02; 0.08; 0.95; 1" dur="20s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="220; 220; 850; 850; 220; 220" keyTimes="0; 0.02; 0.08; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
       </rect>
-      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0; 0.95; 0.96; 0.99; 1" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0; 1; 1; 0; 0" keyTimes="0; 0.01; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
     </g>
 
     <!-- ASCII Art Banner -->
-    <g>
+    <g opacity="0">
       <text y="35" class="bl" font-weight="bold" xml:space="preserve">    ████████╗███████╗ ██████╗██╗  ██╗    ███████╗████████╗</text>
       <text y="60" class="bl" font-weight="bold" xml:space="preserve">    ╚══██╔══╝██╔════╝██╔════╝██║  ██║    ██╔════╝╚══██╔══╝</text>
       <text y="85" class="bl" font-weight="bold" xml:space="preserve">       ██║   █████╗  ██║     ███████║    ███████╗   ██║   </text>
       <text y="110" class="bl" font-weight="bold" xml:space="preserve">       ██║   ██╔══╝  ██║     ██╔══██║    ╚════██║   ██║   </text>
       <text y="135" class="bl" font-weight="bold" xml:space="preserve">       ██║   ███████╗╚██████╗██║  ██║    ███████║   ██║   </text>
       <text y="160" class="bl" font-weight="bold" xml:space="preserve">       ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝    ╚══════╝   ╚═╝   </text>
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0; 0.10; 0.11; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.09; 0.10; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
     </g>
 
     <!-- SUCCESS message -->
-    <g>
+    <g opacity="0">
       <text y="195">[<tspan class="gn">SUCCESS</tspan>] Libraries loaded.</text>
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0; 0.18; 0.19; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.17; 0.18; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
     </g>
 
     <!-- Row 1: Languages & Core -->
-    <g>
+    <g opacity="0">
       <text y="235" font-weight="bold" fill="#e6edf3" font-size="15">&gt; Languages &amp; Core</text>
-      <text y="260" fill="#ffa500" font-weight="bold">[Python]  [Java]  [JavaScript]  [HTML5]  [CSS]  [C]</text>
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0; 0.25; 0.26; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
+      <text y="260" font-weight="bold">
+        <tspan fill="#3776AB">[Python]</tspan>  <tspan fill="#f89820">[Java]</tspan>  <tspan fill="#f7df1e">[JavaScript]</tspan>  <tspan fill="#e34f26">[HTML5]</tspan>  <tspan fill="#1572B6">[CSS]</tspan>  <tspan fill="#A8B9CC">[C]</tspan>
+      </text>
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.24; 0.25; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
     </g>
 
     <!-- Row 2: Mobile Development -->
-    <g>
+    <g opacity="0">
       <text y="295" font-weight="bold" fill="#e6edf3" font-size="15">&gt; Mobile Development</text>
-      <text y="320" fill="#3fb950" font-weight="bold">[Android]  [Android Studio]  [Gradle]</text>
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0; 0.32; 0.33; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
+      <text y="320" font-weight="bold">
+        <tspan fill="#3DDC84">[Android]</tspan>  <tspan fill="#3DDC84">[Android Studio]</tspan>  <tspan fill="#02303A">[Gradle]</tspan>
+      </text>
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.31; 0.32; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
     </g>
 
     <!-- Row 3: Backend & Databases -->
-    <g>
+    <g opacity="0">
       <text y="355" font-weight="bold" fill="#e6edf3" font-size="15">&gt; Backend &amp; Databases</text>
-      <text y="380" fill="#ff7b72" font-weight="bold">[Firebase]  [Firestore]  [MySQL]  [Apache]</text>
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0; 0.39; 0.40; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
+      <text y="380" font-weight="bold">
+        <tspan fill="#FFCA28">[Firebase]</tspan>  <tspan fill="#FFA000">[Firestore]</tspan>  <tspan fill="#4479A1">[MySQL]</tspan>  <tspan fill="#D22128">[Apache]</tspan>
+      </text>
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.38; 0.39; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
     </g>
 
     <!-- Row 4: Tools & Platforms -->
-    <g>
+    <g opacity="0">
       <text y="415" font-weight="bold" fill="#e6edf3" font-size="15">&gt; Tools &amp; Platforms</text>
-      <text y="440" fill="#d2a8ff" font-weight="bold">[GitHub]  [Vercel]  [VS Code]  [Figma]</text>
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0; 0.46; 0.47; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
+      <text y="440" font-weight="bold">
+        <tspan fill="#FFFFFF">[GitHub]</tspan>  <tspan fill="#EAEAEA">[Vercel]</tspan>  <tspan fill="#007ACC">[VS Code]</tspan>  <tspan fill="#F24E1E">[Figma]</tspan>
+      </text>
+      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.45; 0.46; 0.95; 0.96; 1" dur="20s" repeatCount="indefinite"/>
     </g>
 
     <!-- Blinking cursor -->
-    <g>
+    <g opacity="0">
       <text y="475"><tspan class="pr">aditya@dev</tspan>:<tspan class="pt">~/desktop</tspan>$ <tspan class="cursor">█</tspan>
-        <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0;0.53;0.54;0.57;0.58;0.61;0.62;0.65;0.66;0.69;0.70;0.73;0.74;0.77;0.78;0.95;0.96;1" dur="20s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0; 1;0;1;0;1;0;1;0;1;0;1;0; 1;0;0" keyTimes="0;0.53; 0.54;0.57;0.58;0.61;0.62;0.65;0.66;0.69;0.70;0.73;0.74;0.77; 0.78;0.95;1" dur="20s" repeatCount="indefinite"/>
       </text>
     </g>
   </g>
