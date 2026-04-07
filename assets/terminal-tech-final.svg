@@ -7,73 +7,81 @@
       .cm { fill: #d2a8ff; font-weight: bold; }
       .gn { fill: #39ff14; font-weight: bold; }
       .bl { fill: #58a6ff; font-weight: bold; }
+      .cursor { fill: #39ff14; font-weight: bold; }
     </style>
   </defs>
 
-  <!-- Terminal background -->
   <rect width="850" height="510" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
-  <!-- Header bar -->
   <rect width="850" height="35" rx="12" fill="#161b22"/>
   <rect width="850" height="10" y="25" fill="#161b22"/>
-  <!-- Traffic lights -->
   <circle cx="20" cy="18" r="6" fill="#ff5f56"/>
   <circle cx="40" cy="18" r="6" fill="#ffbd2e"/>
   <circle cx="60" cy="18" r="6" fill="#27c93f"/>
   <text x="360" y="23" fill="#8b949e" font-size="13">python@aditya-engine: ~</text>
 
   <g transform="translate(20, 70)">
+    
     <!-- Command line -->
-    <text y="0"><tspan class="pr">aditya@dev</tspan>:<tspan class="pt">~/desktop</tspan>$ <tspan class="cm">python tech_stack.py --display</tspan>
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.02;0.06;0.90;0.97" dur="18s" repeatCount="indefinite"/>
-    </text>
+    <g>
+      <text y="0"><tspan class="pr">aditya@dev</tspan>:<tspan class="pt">~/desktop</tspan>$ <tspan class="cm">python tech_stack.py --display</tspan></text>
+      <!-- Typewriter cover for cmd -->
+      <rect x="220" y="-14" width="400" height="18" fill="#0d1117">
+        <animate attributeName="x" values="220; 220; 500; 500; 220" keyTimes="0; 0.02; 0.08; 0.95; 0.96" dur="20s" repeatCount="indefinite"/>
+      </rect>
+      <!-- Start visibility loop -->
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.01;0.95;0.96" dur="20s" repeatCount="indefinite"/>
+    </g>
 
     <!-- ASCII Art Banner -->
     <g>
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.10;0.14;0.90;0.97" dur="18s" repeatCount="indefinite"/>
       <text y="35" class="bl" font-weight="bold" xml:space="preserve">    ████████╗███████╗ ██████╗██╗  ██╗    ███████╗████████╗</text>
       <text y="60" class="bl" font-weight="bold" xml:space="preserve">    ╚══██╔══╝██╔════╝██╔════╝██║  ██║    ██╔════╝╚══██╔══╝</text>
       <text y="85" class="bl" font-weight="bold" xml:space="preserve">       ██║   █████╗  ██║     ███████║    ███████╗   ██║   </text>
       <text y="110" class="bl" font-weight="bold" xml:space="preserve">       ██║   ██╔══╝  ██║     ██╔══██║    ╚════██║   ██║   </text>
       <text y="135" class="bl" font-weight="bold" xml:space="preserve">       ██║   ███████╗╚██████╗██║  ██║    ███████║   ██║   </text>
       <text y="160" class="bl" font-weight="bold" xml:space="preserve">       ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝    ╚══════╝   ╚═╝   </text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.10;0.12;0.95;0.96" dur="20s" repeatCount="indefinite"/>
     </g>
 
     <!-- SUCCESS message -->
-    <text y="195">[<tspan class="gn">SUCCESS</tspan>] Libraries loaded.
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.18;0.20;0.90;0.97" dur="18s" repeatCount="indefinite"/>
-    </text>
+    <g>
+      <text y="195">[<tspan class="gn">SUCCESS</tspan>] Libraries loaded.</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.18;0.20;0.95;0.96" dur="20s" repeatCount="indefinite"/>
+    </g>
 
     <!-- Row 1: Languages & Core -->
     <g>
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.25;0.28;0.90;0.97" dur="18s" repeatCount="indefinite"/>
       <text y="235" font-weight="bold" fill="#e6edf3" font-size="15">&gt; Languages &amp; Core</text>
       <text y="260" fill="#ffa500" font-weight="bold">[Python]  [Java]  [JavaScript]  [HTML5]  [CSS]  [C]</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.25;0.28;0.95;0.96" dur="20s" repeatCount="indefinite"/>
     </g>
 
     <!-- Row 2: Mobile Development -->
     <g>
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.32;0.35;0.90;0.97" dur="18s" repeatCount="indefinite"/>
       <text y="295" font-weight="bold" fill="#e6edf3" font-size="15">&gt; Mobile Development</text>
       <text y="320" fill="#3fb950" font-weight="bold">[Android]  [Android Studio]  [Gradle]</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.32;0.35;0.95;0.96" dur="20s" repeatCount="indefinite"/>
     </g>
 
     <!-- Row 3: Backend & Databases -->
     <g>
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.39;0.42;0.90;0.97" dur="18s" repeatCount="indefinite"/>
       <text y="355" font-weight="bold" fill="#e6edf3" font-size="15">&gt; Backend &amp; Databases</text>
       <text y="380" fill="#ff7b72" font-weight="bold">[Firebase]  [Firestore]  [MySQL]  [Apache]</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.39;0.42;0.95;0.96" dur="20s" repeatCount="indefinite"/>
     </g>
 
     <!-- Row 4: Tools & Platforms -->
     <g>
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.49;0.90;0.97" dur="18s" repeatCount="indefinite"/>
       <text y="415" font-weight="bold" fill="#e6edf3" font-size="15">&gt; Tools &amp; Platforms</text>
       <text y="440" fill="#d2a8ff" font-weight="bold">[GitHub]  [Vercel]  [VS Code]  [Figma]</text>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.49;0.95;0.96" dur="20s" repeatCount="indefinite"/>
     </g>
 
     <!-- Blinking cursor -->
-    <text y="475"><tspan class="pr">aditya@dev</tspan>:<tspan class="pt">~/desktop</tspan>$ <tspan class="gn">█</tspan>
-      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0" keyTimes="0;0.55;0.56;0.60;0.61;0.65;0.66;0.70;0.71;0.75;0.76;0.80;0.81;0.85;0.86;0.97" dur="18s" repeatCount="indefinite"/>
-    </text>
+    <g>
+      <text y="475"><tspan class="pr">aditya@dev</tspan>:<tspan class="pt">~/desktop</tspan>$ <tspan class="cursor">█</tspan>
+        <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;1;0;1;0;1;0;1;0;0" keyTimes="0;0.53;0.54;0.57;0.58;0.61;0.62;0.65;0.66;0.69;0.70;0.73;0.74;0.77;0.78;0.95;0.96" dur="20s" repeatCount="indefinite"/>
+      </text>
+    </g>
   </g>
 </svg>
