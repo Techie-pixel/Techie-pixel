@@ -87,13 +87,3 @@
 <br>
 
 ---
-
-<br>
-
-## `python goodbye.py --run`
-<br>
-<div align="center">
-	<img alt="Aditya Goodbye Sequence" src="./assets/terminal-goodbye.svg" width="100%">
-</div>
-<br>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=150&section=footer&animation=twinkling" />
