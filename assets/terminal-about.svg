@@ -1,139 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 480" width="850" height="480">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 490" width="850" height="490">
   <defs>
     <style>
       .pr { fill: #79c0ff; font-weight: bold; }
       .pt { fill: #ff7b72; }
-      .cm { fill: #d2a8ff; font-weight: bold; }
       .gn { fill: #39ff14; font-weight: bold; }
       .bl { fill: #58a6ff; font-weight: bold; }
       .yw { fill: #e5c07b; }
       .cursor { fill: #39ff14; font-weight: bold; }
-      .c-android { fill: #00E676; }
-      .c-web { fill: #00BFFF; }
-      .c-db { fill: #FFCA28; }
-      .c-data { fill: #FF4081; }
     </style>
   </defs>
 
-  <rect width="850" height="480" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect width="850" height="490" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
   <rect width="850" height="35" rx="12" fill="#161b22"/>
   <rect width="850" height="10" y="25" fill="#161b22"/>
   <circle cx="20" cy="18" r="6" fill="#ff5f56"/>
   <circle cx="40" cy="18" r="6" fill="#ffbd2e"/>
   <circle cx="60" cy="18" r="6" fill="#27c93f"/>
-  <text x="360" y="23" fill="#8b949e" font-family="ui-monospace, Consolas, monospace" font-size="13">python@aditya-engine: ~</text>
+  <text x="370" y="23" fill="#8b949e" font-family="ui-monospace, Consolas, monospace" font-size="13">about.md</text>
 
-  <!-- Root group to apply base font styling. Inheritance allows simple fill overrides on children -->
-  <g transform="translate(20, 70)" font-family="ui-monospace, Consolas, monospace" font-size="15px" fill="#8b949e">
-    
-    <!-- Step 1: Cmd 1 -->
-    <g opacity="0">
-      <text y="0"><tspan class="pr">aditya@dev</tspan>:<tspan class="pt">~/desktop</tspan>$ <tspan class="cm">python aditya.py --whoami</tspan></text>
-      <rect x="220" y="-14" width="630" height="18" fill="#0d1117">
-        <animate attributeName="x" values="220; 220; 850; 850; 220; 220" keyTimes="0; 0.02; 0.08; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-      </rect>
-      <!-- Visible from 0.01 to 0.95 -->
-      <animate attributeName="opacity" values="0; 1; 1; 0; 0" keyTimes="0; 0.01; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-    </g>
+  <g transform="translate(30, 65)" font-family="ui-monospace, Consolas, monospace" font-size="15px" fill="#8b949e">
 
-    <!-- Step 2: Info 1 -->
-    <g opacity="0">
-      <text y="30">[<tspan class="gn">INFO</tspan>] Importing developer mindset... <tspan class="yw">Success</tspan></text>
-      <!-- Pops in at 0.10 -->
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.09; 0.10; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-    </g>
+    <!-- Info lines (static, always visible) -->
+    <text y="20" fill="#e6edf3" font-weight="bold">👤  Name      <tspan fill="#a78bfa">Aditya Bokde</tspan></text>
+    <text y="48" fill="#e6edf3" font-weight="bold">🎓  Role      <tspan fill="#06b6d4">Android Developer &amp; Full-Stack Dev</tspan></text>
+    <text y="76" fill="#e6edf3" font-weight="bold">📍  Location  <tspan fill="#e5c07b">India 🇮🇳</tspan></text>
+    <text y="104" fill="#e6edf3" font-weight="bold">💬  Interests <tspan fill="#8b949e">Android · Web · Firebase · Data Science</tspan></text>
+    <text y="132" fill="#e6edf3" font-weight="bold">🤝  Status    <tspan class="gn">Open to Collaborate ✅</tspan></text>
 
-    <!-- Step 3: Info 2 -->
-    <g opacity="0">
-      <text y="55">[<tspan class="gn">INFO</tspan>] Runtime Loaded: <tspan class="bl">Aditya Bokde (Final Year)</tspan></text>
-      <!-- Pops in at 0.13 -->
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.12; 0.13; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-    </g>
+    <!-- Divider -->
+    <line x1="0" y1="152" x2="790" y2="152" stroke="#30363d" stroke-width="1"/>
 
-    <!-- Step 4: Info 3 -->
-    <g opacity="0">
-      <text y="80">[<tspan class="gn">INFO</tspan>] Running pytest... <tspan class="gn">All tests passed ✅</tspan></text>
-      <!-- Pops in at 0.16 -->
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.15; 0.16; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-    </g>
+    <!-- Skills section heading -->
+    <text y="178" fill="#e6edf3" font-size="15" font-weight="bold">&gt; Skills</text>
 
-    <!-- Step 5: Cmd 2 -->
-    <g opacity="0">
-      <text y="125"><tspan class="pr">aditya@dev</tspan>:<tspan class="pt">~/desktop</tspan>$ <tspan class="cm">aditya.load_skills()</tspan></text>
-      <rect x="220" y="111" width="630" height="18" fill="#0d1117">
-        <animate attributeName="x" values="220; 220; 850; 850; 220; 220" keyTimes="0; 0.19; 0.24; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-      </rect>
-      <!-- Visible from 0.18 -->
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.18; 0.19; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-    </g>
+    <!-- Row 1: Languages & Core -->
+    <text y="208" fill="#e6edf3" font-size="13">Languages &amp; Core</text>
+    <text y="232" font-weight="bold" font-size="14">
+      <tspan fill="#3776AB">[Python]</tspan>  <tspan fill="#f89820">[Java]</tspan>  <tspan fill="#f7df1e">[JavaScript]</tspan>  <tspan fill="#e34f26">[HTML5]</tspan>  <tspan fill="#1572B6">[CSS]</tspan>  <tspan fill="#A8B9CC">[C]</tspan>
+    </text>
 
-    <!-- Skill 1 -->
-    <g opacity="0">
-      <text y="155" class="c-android" font-weight="bold">Android Dev (Java)</text>
-      <rect x="220" y="143" width="400" height="14" fill="#21262d" rx="4"/>
-      <rect x="220" y="143" width="0" height="14" fill="#00E676" rx="4">
-        <animate attributeName="width" values="0; 0; 340; 340; 0; 0" keyTimes="0; 0.27; 0.33; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-      </rect>
-      <text x="635" y="155" class="c-android" font-weight="bold">85%</text>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.27; 0.28; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-    </g>
+    <!-- Row 2: Mobile Development -->
+    <text y="262" fill="#e6edf3" font-size="13">Mobile Development</text>
+    <text y="286" font-weight="bold" font-size="14">
+      <tspan fill="#3DDC84">[Android]</tspan>  <tspan fill="#3DDC84">[Android Studio]</tspan>  <tspan fill="#669df6">[Gradle]</tspan>
+    </text>
 
-    <!-- Skill 2 -->
-    <g opacity="0">
-      <text y="185" class="c-web" font-weight="bold">Full-Stack &amp; Web</text>
-      <rect x="220" y="173" width="400" height="14" fill="#21262d" rx="4"/>
-      <rect x="220" y="173" width="0" height="14" fill="#00BFFF" rx="4">
-        <animate attributeName="width" values="0; 0; 260; 260; 0; 0" keyTimes="0; 0.31; 0.37; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-      </rect>
-      <text x="635" y="185" class="c-web" font-weight="bold">65%</text>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.31; 0.32; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-    </g>
+    <!-- Row 3: Backend & Databases -->
+    <text y="316" fill="#e6edf3" font-size="13">Backend &amp; Databases</text>
+    <text y="340" font-weight="bold" font-size="14">
+      <tspan fill="#FFCA28">[Firebase]</tspan>  <tspan fill="#FFA000">[Firestore]</tspan>  <tspan fill="#4479A1">[MySQL]</tspan>  <tspan fill="#D22128">[Apache]</tspan>
+    </text>
 
-    <!-- Skill 3 -->
-    <g opacity="0">
-      <text y="215" class="c-db" font-weight="bold">Firebase &amp; MySQL</text>
-      <rect x="220" y="203" width="400" height="14" fill="#21262d" rx="4"/>
-      <rect x="220" y="203" width="0" height="14" fill="#FFCA28" rx="4">
-        <animate attributeName="width" values="0; 0; 220; 220; 0; 0" keyTimes="0; 0.35; 0.41; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-      </rect>
-      <text x="635" y="215" class="c-db" font-weight="bold">55%</text>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.35; 0.36; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-    </g>
+    <!-- Row 4: Tools & Platforms -->
+    <text y="370" fill="#e6edf3" font-size="13">Tools &amp; Platforms</text>
+    <text y="394" font-weight="bold" font-size="14">
+      <tspan fill="#FFFFFF">[GitHub]</tspan>  <tspan fill="#EAEAEA">[Vercel]</tspan>  <tspan fill="#007ACC">[VS Code]</tspan>  <tspan fill="#F24E1E">[Figma]</tspan>
+    </text>
 
-    <!-- Skill 4 -->
-    <g opacity="0">
-      <text y="245" class="c-data" font-weight="bold">Data Science</text>
-      <rect x="220" y="233" width="400" height="14" fill="#21262d" rx="4"/>
-      <rect x="220" y="233" width="0" height="14" fill="#FF4081" rx="4">
-        <animate attributeName="width" values="0; 0; 120; 120; 0; 0" keyTimes="0; 0.39; 0.45; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-      </rect>
-      <text x="635" y="245" class="c-data" font-weight="bold">30%</text>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.39; 0.40; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-    </g>
-
-    <!-- Step 7: Cmd 3 -->
-    <g opacity="0">
-      <text y="295"><tspan class="pr">aditya@dev</tspan>:<tspan class="pt">~/desktop</tspan>$ <tspan class="cm">print(aditya.get_quote())</tspan></text>
-      <rect x="220" y="281" width="630" height="18" fill="#0d1117">
-        <animate attributeName="x" values="220; 220; 850; 850; 220; 220" keyTimes="0; 0.49; 0.54; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-      </rect>
-      <!-- Visible from 0.48 -->
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.48; 0.49; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-    </g>
-
-    <!-- Step 8: Quote -->
-    <g opacity="0">
-      <text y="325" fill="#e5c07b" font-style="italic">"First, solve the problem. Then, write the code."</text>
-      <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.55; 0.56; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
-    </g>
-
-    <!-- Blinking cursor at the end! -->
-    <g opacity="0">
-      <text y="360" x="0"><tspan class="pr">aditya@dev</tspan>:<tspan class="pt">~/desktop</tspan>$ <tspan class="cursor">█</tspan>
-        <!-- The cursor block pops in at 0.58, then blinks, then hides at 0.95 -->
-        <animate attributeName="opacity" values="0;0; 1;0;1;0;1;0;1;0;1;0;1;0; 1;0;0" keyTimes="0;0.58; 0.59;0.62;0.63;0.66;0.67;0.70;0.71;0.74;0.75;0.78;0.79;0.82; 0.83;0.95;1" dur="18s" repeatCount="indefinite"/>
-      </text>
-    </g>
+    <!-- Quote -->
+    <text y="432" fill="#e5c07b" font-style="italic" font-size="14">"First, solve the problem. Then, write the code."</text>
 
   </g>
 </svg>
