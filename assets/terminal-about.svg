@@ -25,7 +25,7 @@
 
   <!-- Root group to apply base font styling. Inheritance allows simple fill overrides on children -->
   <g transform="translate(20, 70)" font-family="ui-monospace, Consolas, monospace" font-size="15px" fill="#8b949e">
-    
+
     <!-- Step 1: Cmd 1 -->
     <g opacity="0">
       <text y="0"><tspan class="pr">aditya@dev</tspan>:<tspan class="pt">~/desktop</tspan>$ <tspan class="cm">python aditya.py --whoami</tspan></text>
@@ -80,23 +80,23 @@
 
     <!-- Skill 2 -->
     <g opacity="0">
-      <text y="185" class="c-web" font-weight="bold">Full-Stack &amp; Web</text>
+      <text y="185" class="c-db" font-weight="bold">Firebase &amp; MySQL</text>
       <rect x="220" y="173" width="400" height="14" fill="#21262d" rx="4"/>
-      <rect x="220" y="173" width="0" height="14" fill="#00BFFF" rx="4">
+      <rect x="220" y="173" width="0" height="14" fill="#FFCA28" rx="4">
         <animate attributeName="width" values="0; 0; 260; 260; 0; 0" keyTimes="0; 0.31; 0.37; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
       </rect>
-      <text x="635" y="185" class="c-web" font-weight="bold">65%</text>
+      <text x="635" y="185" class="c-db" font-weight="bold">65%</text>
       <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.31; 0.32; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
     </g>
 
     <!-- Skill 3 -->
     <g opacity="0">
-      <text y="215" class="c-db" font-weight="bold">Firebase &amp; MySQL</text>
+      <text y="215" class="c-web" font-weight="bold">Full-Stack &amp; Web</text>
       <rect x="220" y="203" width="400" height="14" fill="#21262d" rx="4"/>
-      <rect x="220" y="203" width="0" height="14" fill="#FFCA28" rx="4">
-        <animate attributeName="width" values="0; 0; 220; 220; 0; 0" keyTimes="0; 0.35; 0.41; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
+      <rect x="220" y="203" width="0" height="14" fill="#00BFFF" rx="4">
+        <animate attributeName="width" values="0; 0; 200; 200; 0; 0" keyTimes="0; 0.35; 0.41; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
       </rect>
-      <text x="635" y="215" class="c-db" font-weight="bold">55%</text>
+      <text x="635" y="215" class="c-web" font-weight="bold">50%</text>
       <animate attributeName="opacity" values="0; 0; 1; 1; 0; 0" keyTimes="0; 0.35; 0.36; 0.95; 0.96; 1" dur="18s" repeatCount="indefinite"/>
     </g>
 
