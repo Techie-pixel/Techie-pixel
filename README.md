@@ -2,11 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Aditya%20Bokde&fontSize=60&fontColor=a78bfa&animation=twinkling&fontAlignY=50&stroke=06b6d4" />
 </div>
 
-<div align="center">
-<a href="https://git.io/typing-svg">
-	<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=900&color=06B6D4&center=true&vCenter=true&multiline=false&repeat=true&width=800&height=50&lines=Android+Developer;Full-Stack+Developer;Firebase+Expert;Open+Source+Enthusiast" alt="Typing SVG" />
-</a>
-</div>
+<br>
 
 <div align="center">
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bokdeaditya77@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
